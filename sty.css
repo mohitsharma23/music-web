@@ -1,0 +1,121 @@
+/* Basic stuff */
+
+
+p{
+  font-family: sans-serif;
+}
+
+li{
+  list-style-type: none;
+}
+
+/* Navbar */
+.navbar-inverse{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#hidden{
+  display: none;
+}
+.tg{
+  height: 50px;
+}
+#hidden input::-webkit-input-placeholder{
+  color: #a9acb2;
+  font-size: 20px;
+}
+
+/* Head Image */
+.img-bg button{
+  width: auto;
+  margin-left: 150px;
+  margin-top: 200px;
+}
+
+.img-bg{
+  background-image: url('indeximg.jpg');
+  height: 400px;
+  width: 100%;
+  padding: 0;
+  border: 0;
+}
+
+.main_btn{
+  color: #000;
+	border: 2px solid #000;
+	font-weight:bold;
+	font-size: 20px;
+}
+
+
+.main_btn:hover{
+  background: #000;
+  color: #10830E;
+
+}
+
+/* Main */
+.main{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#main{
+    font-size: 20px;
+}
+
+.col-sm-4{
+  text-align: center;
+}
+
+ .col-sm-6{
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 50px;
+ }
+
+ .loginform{
+   text-align: center;
+ }
+/* Footer */
+.footer{
+  width: 100%;
+  height: 150px;
+  background-color: #000;
+}
+
+#log {
+  margin-top: 137px;
+}
+
+.row{
+  margin-top: 20px;
+}
+
+.footer ul>li>a{
+  text-decoration: none;
+  color: #a9acb2;
+}
+
+.footer p{
+  color: #a9acb2;
+  font-size: 15px;
+}
+input[type=text]{
+  margin: 0;
+  width: 70%;
+  display: inline-block;
+}
+
+input[type=password]{
+  margin: 0;
+  width: 70%;
+  display: inline-block;
+}
+input[type=number]{
+  margin: 0;
+  width: 70%;
+  display: inline-block;
+}
